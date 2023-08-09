@@ -1,0 +1,23 @@
+{
+  "name": "webpack_demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "exec": "node dist/visualisationAPI.js",
+    "build": "npx webpack --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphology": "0.25.1",
+    "sigma": "3.0.0-alpha3",
+    "graphology-layout-forceatlas2": "0.8.1"
+  },
+  "devDependencies": {
+    "ts-loader": "9.4.4",
+    "typescript": "5.1.6",
+    "webpack": "5.88.2",
+    "webpack-cli": "5.1.4",
+    "kotatsu": "0.23.1"
+  }
+}
