@@ -29,7 +29,7 @@ Create a  `XWiki.JavaScriptExtension` XObject, with the following content, and `
 ```javascript
 require.config({
   paths: {
-    'bundle': '$services.webjars.url('org.xwiki.contrib:webpack-demo', 'bundle.js')'
+    'bundle': '$services.webjars.url('org.xwiki.contrib:npm-ts-based-webjar', 'bundle.js')'
   }
 });
 
